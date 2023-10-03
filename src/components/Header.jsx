@@ -1,54 +1,15 @@
-import Link from "next/link"
-import React from 'react'
+import React from 'react';
 
-const Header = () => {
+function Header() {
   return (
-    <div className="flex w-[100vw] bg-red-900 items-center">
-        <div>
-            Daniel Boykov
-        </div>
-        <div>
-            <span>
-                Projects
-            </span>
-            <span>
-                Technologies
-            </span>
-            <span>
-                About Me
-            </span>
-        </div>
-        <div className="flex">
-            <span>
-                <Link
-                    target="_blank"
-                    passHref={true}
-                    href="https://github.com/Aztarok"
-                >
-                    <img className="w-[3vw]" src="./twitterlogo.png" alt="twitter logo" />
-                </Link>
-            </span>
-            <span>
-                <Link
-                    target="_blank"
-                    passHref={true}
-                    href="https://github.com/Aztarok"
-                >
-                    <img className="w-[3vw]" src="./twitterlogo.png" alt="twitter logo" />
-                </Link>
-            </span>
-            <span>
-                <Link
-                    target="_blank"
-                    passHref={true}
-                    href="https://github.com/Aztarok"
-                >
-                    <img className="w-[3vw]" src="./twitterlogo.png" alt="twitter logo" />
-                </Link>
-            </span>
-        </div>
+    <div className="flex items-center justify-center fixed top-0 left-0 w-full h-[5vw] bg-transparent gap-[2vw]">
+      <span className="absolute left-[5vw]">Daniel Boykov</span>
+      <span>Home</span>
+      <span>About</span>
+      <span>Technologies</span>
+      <span>Contact</span>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
