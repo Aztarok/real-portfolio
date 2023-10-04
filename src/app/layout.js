@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
     const currentColor = 1;
     return (
         <html lang="en">
-            <body className={`${fira_Code.className} h-[200vh] container-snap`}>
-                <div className="h-[5vw] bg-blue-800"></div>
+            <body className={`${fira_Code.className} h-[200vw] bg-slate-900 container-snap`}>
+                <div className="h-[5vw] bg-transparent"></div>
                 <Header />
                 {children}
             </body>
