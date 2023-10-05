@@ -17,7 +17,6 @@ function Header() {
       }, []);
 
     const scrollToSection = (sectionId) => {
-
         if (sectionRef.current[sectionId]) {
             sectionRef.current[sectionId].scrollIntoView({behavior: "smooth"});
         }
