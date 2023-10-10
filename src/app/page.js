@@ -20,7 +20,7 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col gap-[1vw] items-center w-[33.5%] bg-slate-600">
                         <span className="text-[2vw] mt-[2vw]">
-                            Software Development
+                            Frontend Development
                         </span>
                         <span className="text-[1.25vw] h-[45%] p-[2vw]">
                             Experienced in both functional and OOP: Python, Java, JavaScript, TypeScript.
@@ -45,9 +45,20 @@ export default function Home() {
                     <div className="flex justify-center w-[33%] bg-slate-600">Future</div>
                 </div>
             </div>
-            <div className="flex bg-transparent 0 items-center justify-center flex-col w-full h-[50vw] " id="projects">
+            <div className="flex bg-red-400 0 gap-[2vw] items-center justify-center flex-col w-full h-[100vw] " id="projects">
                 <span className="text-[5vw]">Projects</span>
-                <div className="flex border-[1.5px] w-[75vw] justify-between h-[50%] bg-blue-500">
+                <div className="flex border-[.5vw] w-[99vw] justify-between h-[35%] bg-blue-500">
+                    <div className="flex justify-center flex-wrap overflow-hidden w-[33%] bg-slate-600">
+                        <div className="h-[75%] bg-green-500 w-full">
+                            <img src="./next.svg" alt="project 1 image" />
+                        </div>
+                        <div className="h-[15%] bg-slate-700 w-full">hi</div>
+                        <div className="h-[15%] bg-slate-500 w-full">hi</div>
+                    </div>
+                    <div className="flex justify-center w-[33%] bg-slate-600">Project site</div>
+                    <div className="flex justify-center w-[33%] h-[15%] bg-slate-600">Github</div>
+                </div>
+                <div className="flex border-[.5vw] w-[99vw] justify-between h-[35%] bg-blue-500">
                     <div className="flex justify-center w-[33%] bg-slate-600">Software Development</div>
                     <div className="flex justify-center w-[33%] bg-slate-600">Frontend</div>
                     <div className="flex justify-center w-[33%] bg-slate-600">Future</div>
